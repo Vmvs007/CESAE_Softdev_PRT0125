@@ -1,0 +1,52 @@
+{
+	Name = ???
+	Primary = Red Laser
+	Secondary = Rocket
+	Health = 120
+	Energy = 1000
+	Mass = 10
+	Size = 100
+	Acceleration = 10
+	Vmax = 400
+	Turn = 50
+	Generation = 120
+	SlotPrim = -25, -5
+	SlotPrim = 25, -5
+	SlotSecn = 0, 50
+	Image = ship
+	X = 9
+	Y = 9
+	Slot = X:4, Y:0, Weapon
+	Slot = X:4, Y:1
+	Slot = X:4, Y:2
+	Slot = X:4, Y:3, Reactor
+	Slot = X:4, Y:4, Reactor
+	Slot = X:4, Y:5, Reactor
+	Slot = X:4, Y:6, Reactor
+	Slot = X:4, Y:7, Engine, Reactor
+	Slot = X:4, Y:8, Engine
+	Slot = X:5, Y:2
+	Slot = X:5, Y:3
+	Slot = X:5, Y:4
+	Slot = X:5, Y:5, Reactor
+	Slot = X:5, Y:6, Reactor
+	Slot = X:5, Y:7, Engine
+	Slot = X:3, Y:2
+	Slot = X:3, Y:3
+	Slot = X:3, Y:4
+	Slot = X:3, Y:5, Reactor
+	Slot = X:3, Y:6, Reactor
+	Slot = X:3, Y:7, Engine
+	Slot = X:2, Y:4, Weapon
+	Slot = X:2, Y:5
+	Slot = X:2, Y:6
+	Slot = X:6, Y:4, Weapon
+	Slot = X:6, Y:5
+	Slot = X:6, Y:6
+	Slot = X:1, Y:6
+	Slot = X:7, Y:6
+	Text {
+		"This is the first intergalactic spaceship build from humans. It has the best technology known at this time.
+		It's not the best ship, but it points with its strong hull and its strong missiles."
+	}
+}

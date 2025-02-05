@@ -1,0 +1,87 @@
+{
+	Name = Starfighter
+	Primary = Green Laser
+	Secondary = -1
+	Health = 60
+	Energy = 2000
+	Mass = 20
+	Size = 50
+	Acceleration = 20
+	Vmax = 600
+	Turn = 60
+	Generation = 240
+	SlotPrim = -10, -3
+	SlotPrim = 10, -3
+	Image = starfighter
+	X = 7
+	Y = 7
+	Slot = X:0, Y:4
+	Slot = X:1, Y:3
+	Slot = X:1, Y:4
+	Slot = X:2, Y:2, Weapon
+	Slot = X:2, Y:3, Reactor
+	Slot = X:2, Y:4, Reactor
+	Slot = X:2, Y:5, Engine
+	Slot = X:3, Y:0
+	Slot = X:3, Y:1
+	Slot = X:3, Y:2
+	Slot = X:3, Y:3, Reactor
+	Slot = X:3, Y:4, Reactor
+	Slot = X:4, Y:2, Weapon
+	Slot = X:4, Y:3, Reactor
+	Slot = X:4, Y:4, Reactor
+	Slot = X:4, Y:5, Engine
+	Slot = X:5, Y:3
+	Slot = X:5, Y:4
+	Slot = X:6, Y:4
+	Text {
+		"This is a small ship from the Scraituk.
+		It has a medium shooting weapon with medium damage and low Energy cost which makes it useful for the small Starfighter that has small energy tanks and a slow energy production.
+		Without this weapon theStarfighter would be the worst ship in this galaxy.
+		It is useful against ships with area weapons."
+	}
+}
+{
+	Name = White Starfighter
+	Primary = Advanced Green Laser
+	Secondary = -1
+	Health = 40
+	Energy = 2500
+	Mass = 25
+	Size = 50
+	Acceleration = 20
+	Vmax = 600
+	Turn = 60
+	Generation = 300
+	SlotPrim = -10, -3
+	SlotPrim = 10, -3
+	Image = starfighter_white
+	X = 7
+	Y = 7
+	Slot = X:0, Y:4
+	Slot = X:1, Y:3
+	Slot = X:1, Y:4, Reactor
+	Slot = X:2, Y:2, Weapon
+	Slot = X:2, Y:3, Reactor
+	Slot = X:2, Y:4, Reactor
+	Slot = X:2, Y:5, Engine
+	Slot = X:3, Y:0
+	Slot = X:3, Y:1
+	Slot = X:3, Y:2
+	Slot = X:3, Y:3, Reactor
+	Slot = X:3, Y:4, Reactor
+	Slot = X:4, Y:2, Weapon
+	Slot = X:4, Y:3, Reactor
+	Slot = X:4, Y:4, Reactor
+	Slot = X:4, Y:5, Engine
+	Slot = X:5, Y:3
+	Slot = X:5, Y:4, Reactor
+	Slot = X:6, Y:4
+	Text {
+		"This is a ship like the regular Starfighter, but this ship has a weaker hull and better energy tanks and reactors.
+		Its weapon is also improved.
+		The laser has a lower cooldown, but a little higher energy cost.
+		The weapon also has a higher range.
+		This ship is weak against ships with high damage weapons."
+	}
+}
