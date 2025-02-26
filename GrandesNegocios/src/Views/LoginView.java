@@ -1,13 +1,19 @@
 package Views;
 
+import Controllers.LoginController;
+
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class LoginView {
 
-    public LoginView() {
+    LoginController loginController;
+
+    public LoginView() throws FileNotFoundException {
+        this.loginController = new LoginController();
     }
 
-    public void entryView() {
+    public void entryView() throws FileNotFoundException, InterruptedException {
 
         Scanner input = new Scanner(System.in);
         int loginOption;
@@ -37,6 +43,7 @@ public class LoginView {
                     System.out.print("Password: ");
                     String passwordInput = input.next();
 
+                    validateLogin(usernameInput,passwordInput);
                     break;
 
                 case 0: // Exit
@@ -49,8 +56,25 @@ public class LoginView {
     }
 
 
-    private void validateLogin(String usernameInput, String passwordInput){
+    private void validateLogin(String usernameInput, String passwordInput) throws FileNotFoundException, InterruptedException {
 
+        String access = loginController.accessType(usernameInput, passwordInput);
+
+        switch (access){
+            case "ADMIN":
+                AdminView adminView = new AdminView();
+                adminView.adminMenu();
+                break;
+
+            case "FUNC":
+                CrewView crewView = new CrewView();
+                crewView.crewMenu();
+                break;
+
+            case "ERROR":
+                System.out.println("\uD83D\uDD12 Acesso Inválido \uD83D\uDD12");
+                break;
+        }
     }
 
 }

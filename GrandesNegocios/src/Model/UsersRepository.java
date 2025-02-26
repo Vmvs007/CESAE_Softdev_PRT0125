@@ -6,11 +6,11 @@ import Tools.CSVReader;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
-public class UserRepository {
+public class UsersRepository {
 
     private ArrayList<User> usersList;
 
-    public UserRepository() throws FileNotFoundException {
+    public UsersRepository() throws FileNotFoundException {
         this.usersList = CSVReader.readUserFileToArray("Files/login_grandesNegocios.csv");
     }
 
