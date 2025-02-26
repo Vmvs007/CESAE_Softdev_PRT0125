@@ -1,6 +1,7 @@
 package Views;
 
 import Controllers.AdminController;
+import Domain.Sale;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -43,9 +44,15 @@ public class AdminView {
                     break;
 
                 case 3: // Best Sale (By Units)
+                    System.out.println("********** \uD83C\uDE39 Best Sale by Units \uD83C\uDE39 **********");
+                    Sale bestSeller = this.adminController.bestSaleUnits();
+                    System.out.println(bestSeller.getCategory() + " | " + bestSeller.getProduct() + " | Sold: " + bestSeller.getUnitsSold() + " units.");
                     break;
 
                 case 4: // Best Sale (By Value)
+                    System.out.println("********** \uD83D\uDE9B Best Sale by Value \uD83D\uDE9B **********");
+                    Sale bestValueSeller = this.adminController.bestSaleValue();
+                    System.out.println(bestValueSeller.getCategory() + " | " + bestValueSeller.getProduct() + " | Sold: " + (bestValueSeller.getUnitsSold()*bestValueSeller.getUnitPrice()) + " €");
                     break;
 
                 case 5: // Total Sales

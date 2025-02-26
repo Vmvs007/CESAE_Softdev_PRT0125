@@ -1,10 +1,17 @@
 package Views;
 
+import Controllers.CustomerController;
+import Domain.Sale;
+
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class CustomerView {
 
-    public CustomerView() {
+    private CustomerController customerController;
+
+    public CustomerView() throws FileNotFoundException {
+        this.customerController = new CustomerController();
     }
 
     public void customerMenu() {
@@ -30,6 +37,11 @@ public class CustomerView {
                     break;
 
                 case 3: // Most Expensive/Cheapest Product
+                    Sale expensive = this.customerController.mostExpensiveProduct();
+                    Sale cheapest = this.customerController.cheapestProduct();
+
+                    System.out.println("Most Expensive: " + expensive.getCategory() + " | " + expensive.getProduct() + " | " + expensive.getUnitPrice() + " €");
+                    System.out.println("Cheapest: " + cheapest.getCategory() + " | " + cheapest.getProduct() + " | " + cheapest.getUnitPrice() + " €");
                     break;
 
                 case 0: // Exit
