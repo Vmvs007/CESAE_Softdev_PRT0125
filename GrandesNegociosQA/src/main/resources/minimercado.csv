@@ -1,0 +1,132 @@
+tipo_produto,produto,quantidade_vendida,preco_unitario
+Alimentacao,Bacalhau,20,15.99
+Alimentacao,Queijo Serra,10,9.50
+Alimentacao,Azeite,30,7.99
+Alimentacao,Polvo,5,25.99
+Alimentacao,Chourico,15,5.99
+Alimentacao,Cerveja Super Bock,5,0.99
+Alimentacao,Cabrito,9,5.99
+Higiene,Sabao Azul e Branco,50,1.75
+Higiene,Sabao Rosa,55,1.70
+Higiene,Amaciador da Roupa,40,4.99
+Higiene,Pasta de Dentes,60,3.50
+Higiene,Shampoo Homem 8 em 1,35,6.99
+Produtos para Casa,Toalhas de Papel,70,2.25
+Produtos para Casa,Lava-Louca,25,3.99
+Produtos para Casa,Sacos do Lixo,100,4.50
+Produtos para Casa,Vassoura,20,7.99
+Produtos para Casa,Ambientador de Francesinha,10,9.95
+Alimentacao,Alheira,15,8.50
+Alimentacao,Presunto,25,12.99
+Alimentacao,Arroz Carolino,30,2.99
+Alimentacao,Vinho Verde,40,5.99
+Higiene,Gel de Banho,45,4.25
+Higiene,Desodorizante,30,3.99
+Higiene,Creme Hidratante,20,8.99
+Produtos para Casa,Luvas de Borracha,50,2.50
+Produtos para Casa,Ambientador,15,6.99
+Produtos para Casa,Esfregao,40,1.99
+Alimentacao,Queijo da Ilha,10,10.50
+Alimentacao,Sardinhas em Lata,35,3.99
+Alimentacao,Francesinha Congelada,5,6.99
+Higiene,Escova de Dentes,70,2.99
+Higiene,Lixívia,15,1.99
+Higiene,Condicionador,25,5.50
+Produtos para Casa,Detergente Multiuso,50,3.25
+Produtos para Casa,Esponja de Cozinha,80,1.75
+Produtos para Casa,Aspirador de Po,5,99.99
+Alimentacao,Cerveja Super Bock,350,0.99
+Alimentacao,Tremoços,43,1.25
+Alimentacao,Cerveja Sagres,2,0.99
+Alimentacao,Pate de Sardinha,90,0.65
+Alimentacao,Salpicao,45,4.99
+Alimentacao,Vinagre,10,3.50
+Alimentacao,Vinho Verde,20,5.99
+Produtos para Casa,Ambientador Bacalhau com Broa,10,9.95
+Alimentacao,Rojoes Congelados,15,5.99
+Alimentacao,Cozido Portuguesa Congelado,90,3.99
+Alimentacao,Lulas,25,8.99
+Alimentacao,Cerveja Super Bock,100,0.99
+Alimentacao,Feijao Frade,20,1.50
+Alimentacao,Chourição,12,6.75
+Higiene,Laminas de Barbear BIC,15,2.50
+Alimentacao,Presunto,19,12.99
+Higiene,Sabonete Artesanal,8,4.99
+Higiene,Papel Higiénico,50,2.99
+Produtos para Casa,Candeeiro de Mesa,5,19.99
+Produtos para Casa,Almofada Decorativa,10,12.50
+Produtos para Casa,Tábua de Passar a Ferro,8,24.99
+Alimentacao,Café em Grao,40,7.50
+Alimentacao,Doce de Abóbora,18,3.25
+Alimentacao,Cerveja Super Bock,99,0.99
+Alimentacao,Bolachas de Manteiga,30,2.99
+Higiene,Perfume Floral,12,29.99
+Alimentacao,Vinho Verde,40,5.99
+Higiene,Escova de Cabelo,20,5.99
+Higiene,Lixívia,15,1.99
+Produtos para Casa,Porta-Chaves Decorativo,5,8.99
+Produtos para Casa,Esfregona,12,15.99
+Produtos para Casa,Desentupidor de Canos,3,6.50
+Alimentacao,Pastéis de Nata Congelados,40,4.50
+Alimentacao,Marmelada,25,3.75
+Alimentacao,Pão de Centeio,15,2.25
+Higiene,Sabonete Líquido,30,4.50
+Higiene,Removedor de Verniz,12,1.99
+Produtos para Casa,Caixa de Arrumação,5,11.99
+Alimentacao,Cerveja Super Bock,35,0.99
+Produtos para Casa,Varal de Roupa,18,7.25
+Produtos para Casa,Desodorizante para Armários,10,5.50
+Alimentacao,Queijadas,15,6.25
+Alimentacao,Empadas Congeladas,20,5.99
+Alimentacao,Sumo de Laranja Natural,30,2.75
+Higiene,Condicionador para Barba,8,7.99
+Higiene,Batom Hidratante,15,12.50
+Higiene,Pasta de Banho,25,3.99
+Alimentacao,Vinho Verde,50,5.99
+Alimentacao,Presunto,5,12.99
+Alimentacao,Cerveja Super Bock,40,0.99
+Produtos para Casa,Almofadas para Cadeiras,12,4.50
+Produtos para Casa,Repelente de Insetos,10,8.25
+Produtos para Casa,Caneca Térmica,6,9.99
+Alimentacao,Pimentos,12,2.99
+Alimentacao,Leite de Cabra,18,1.75
+Alimentacao,Camarão Selvagem,8,19.99
+Higiene,Lixívia,10,1.99
+Higiene,Autobronzeador,5,14.50
+Higiene,Desinfetante de Mãos,40,3.25
+Higiene,Spray Fixador de Cabelo,15,7.99
+Produtos para Casa,Organizador de Gavetas,10,6.99
+Produtos para Casa,Inseticida,8,4.50
+Alimentacao,Presunto,12,12.99
+Produtos para Casa,Lâmpada LED,25,3.99
+Alimentacao,Cerveja Super Bock,11,0.99
+Alimentacao,Mel de Rosmaninho,20,5.50
+Alimentacao,Pipocas de Milho,30,1.99
+Alimentacao,Presunto,2,12.99
+Alimentacao,Vinho Verde,10,5.99
+Alimentacao,Frutos Secos,15,8.75
+Higiene,Esfoliante Facial,12,9.25
+Produtos para Casa,Anti-Mofo,5,5.99
+Produtos para Casa,Porta-Revistas,8,10.99
+Produtos para Casa,Conjunto de Talheres,15,12.99
+Alimentacao,Tremoços,20,1.25
+Alimentacao,Chocolate Negro,22,3.99
+Alimentacao,Molho de Piri-Piri,10,2.50
+Higiene,Máscara Facial,30,1.99
+Higiene,Creme para as Mãos,20,6.50
+Alimentacao,Cerveja Super Bock,6,0.99
+Higiene,Condicionador Seco,8,8.99
+Produtos para Casa,Tapete de Banho,12,7.25
+Produtos para Casa,Óleo Lubrificante,5,4.99
+Alimentacao,Presunto,2,12.99
+Produtos para Casa,Baldes de Reciclagem,3,15.99
+Alimentacao,Leite Condensado,15,1.99
+Alimentacao,Sementes de Abóbora,10,4.25
+Alimentacao,Vinho Verde,90,5.99
+Alimentacao,Cerveja Super Bock,445,0.99
+Alimentacao,Tiramisu,8,7.99
+Higiene,Pilhas AA,20,0.99
+Higiene,Fio Dental,15,2.25
+Alimentacao,Presunto,12,12.99
+Alimentacao,Cerveja Super Bock,20,0.99
+Alimentacao,Vinho Verde,44,5.99

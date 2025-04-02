@@ -1,0 +1,141 @@
+package Views;
+
+import Controllers.AdminController;
+import Domain.Sale;
+
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+import static java.lang.Thread.sleep;
+
+public class AdminView {
+
+    AdminController adminController;
+
+    public AdminView() throws FileNotFoundException {
+        this.adminController = new AdminController("src/java/resources/minimercado.csv");
+    }
+
+    public void adminMenu() throws InterruptedException {
+
+        Scanner input = new Scanner(System.in);
+        int menuOption;
+
+        do {
+
+            System.out.println("\nHello Dear Admin. Nice to See You \uD83D\uDC51");
+            System.out.println("1. Most Sold Product (By Units)");
+            System.out.println("2. Most Sold Product (By Value)");
+            System.out.println("3. Best Domain.Sale (By Units)");
+            System.out.println("4. Best Domain.Sale (By Value)");
+            System.out.println("5. Total Sales");
+            System.out.println("6. Average Sales");
+            System.out.println("7. Coffee Time");
+            System.out.println("0. Exit \uD83C\uDFC3\uD83D\uDEAA");
+            System.out.print("Choose: ");
+
+            menuOption = input.nextInt();
+
+            switch (menuOption) {
+                case 1: // Most Sold Product (By Units)
+                    break;
+
+                case 2: // Most Sold Product (By Value)
+                    break;
+
+                case 3: // Best Domain.Sale (By Units)
+                    System.out.println("********** \uD83C\uDE39 Best Domain.Sale by Units \uD83C\uDE39 **********");
+                    Sale bestSeller = this.adminController.bestSaleUnits();
+                    System.out.println(bestSeller.getCategory() + " | " + bestSeller.getProduct() + " | Sold: " + bestSeller.getUnitsSold() + " units.");
+                    break;
+
+                case 4: // Best Domain.Sale (By Value)
+                    System.out.println("********** \uD83D\uDE9B Best Domain.Sale by Value \uD83D\uDE9B **********");
+                    Sale bestValueSeller = this.adminController.bestSaleValue();
+                    System.out.println(bestValueSeller.getCategory() + " | " + bestValueSeller.getProduct() + " | Sold: " + (bestValueSeller.getUnitsSold()*bestValueSeller.getUnitPrice()) + " €");
+                    break;
+
+                case 5: // Total Sales
+                    System.out.println(viewTotalSales());                    ;
+                    break;
+
+                case 6: // Average Sales
+                    break;
+
+                case 7: // Coffee Time
+                    coffeeTime();
+                    break;
+
+                case 0: // Exit
+                    break;
+
+                default: // Invalid Option
+                    System.out.println("\uD83D\uDEA8 Invalid Option \uD83D\uDEA8");
+            }
+        } while (menuOption != 0);
+    }
+
+    private String viewTotalSales(){
+        double totalSales = this.adminController.getTotalSales();
+
+        return "********** \uD83D\uDCB0 Total Sales \uD83D\uDCB0 **********\n"+totalSales + " €";
+    }
+
+    private void coffeeTime() throws InterruptedException {
+        System.out.println("Awaiting Coffee");
+        System.out.println("₊˚.\uD83C\uDFA7 ✩｡ \uD83E\uDD0E");
+        System.out.println("_________________________");
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+        sleep(300);
+        System.out.print("|");
+
+        System.out.println("\n\n☕");
+
+    }
+}
